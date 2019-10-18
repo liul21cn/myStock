@@ -1,0 +1,15 @@
+#ºöÂÔÎÄ¼þ
+*.bak
+*.pdb
+*.manifest
+*.vshost.exe
+/src/myStock/bin
+/src/myStock/obj
+/src/myStock.DAL/bin
+/src/myStock.DAL/obj
+/src/myStock.Model/bin
+/src/myStock.Model/obj
+/src/myStock.WinUI/bin
+/src/myStock.WinUI/obj
+/src/RiziFrame.Utility/bin
+/src/RiziFrame.Utility/obj

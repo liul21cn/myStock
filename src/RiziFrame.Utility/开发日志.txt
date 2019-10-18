@@ -1,0 +1,13 @@
+﻿-- 2019.9.19
+-- 数据库结构设计
+业务域：互联网，交易结算
+结算又分了几个组：1)交易、结算， 2)历史库， 3)会服， 4)做市商
+
+1. 修改了SQLiteHelper类
+
+-- 2019.9.18
+1. 修改sqlite类，增加TestConn方法，获取Db版本等方法。
+2. 新增 IDbHelper接口 方便管理不同数据库的方法; 
+3. 修改 DbProvider类，根据app.config中的 <add key="DbProvider" value="Sqlite"/> 即可直接获取dbconn连接串
+4. 新增log4net类及其方法,位置common.LogHelper，方便记录日志. 该类本次只进行了简单使用，后期如果有必要再进行扩展。
+
